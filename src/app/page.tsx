@@ -1,17 +1,12 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import Hero from "@/components/Hero";
-import Header from "@/components/Header";
-import About from "@/components/About";
-import Footer from "@/components/Footer"
+import React from 'react'
+import HomePage from './HomePage/page'
 
-export default function Home() {
+const Home = () => {
   return (
-    <>
-    <Header />
-    <About />
-    <Hero />
-    <Footer />
-    </>
-  );
+    <div>
+    <HomePage />
+    </div>
+  )
 }
+
+export default Home
