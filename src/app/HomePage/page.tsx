@@ -2,9 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 import { FaCheck } from 'react-icons/fa';
 import FoodCategory from '@/app/foodcategery/page'
-import foodpic1 from "/public/foodpic1.jpeg"
-import foodpic2 from "/public/foodpic2.jpeg"
-import foodpic3 from "/public/foodpic1.jpeg"
+import foodpic1 from "/foodpic1.jpeg"
+import foodpic2 from "/foodpic2.jpeg"
+import foodpic3 from "/foodpic1.jpeg"
 
 function HomePage() {
   return (
